@@ -18,6 +18,10 @@ a:focus {
 
 .logo {
     color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
 }
 
 .web-logo {
@@ -40,17 +44,30 @@ ul {
     list-style: none;
 }
 
+.hero {
+    text-align: center;
+}
+
 .hero,
 footer {
     background-color: rgba(47, 48, 58, 1);
+
 }
 
 .hero-title {
     color: var(--bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 
 .site-nav a {
     color: rgba(33, 33, 33, 1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,
@@ -61,7 +78,24 @@ a:focus {
 .btn {
     background-color: var(--accent-color);
     color: var(--bg-color);
-    font-family: Roboto Font, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.section {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .contacts a {
@@ -86,12 +120,29 @@ a:focus {
     color: var(--accent-color);
 }
 
+.section-title-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: rgba(33, 33, 33, 1);
+}
+
 .filter.portfolio-btn {
+    font-family: Roboto, sans-serif;
     color: rgba(33, 33, 33, 1);
     background-color: rgba(245, 244, 250, 1);
 }
 
-.portfolio-btn:hover,
-portfolio-btn:focus {
-    color: var(--accent-color);
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.filter button:hover,
+.filter button:focus {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
 }
