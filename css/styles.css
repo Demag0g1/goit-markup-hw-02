@@ -133,12 +133,10 @@ footer {
     background-color: var(--footer-bg-color);
 }
 
-
 .section {
     font-size: 14px;
     line-height: 1.71;
 }
-
 
 .contacts a:hover,
 .contacts a:focus {
@@ -149,16 +147,13 @@ footer {
     color: var(--bg-color);
     font-style: normal;
     line-height: 1.71;
-
 }
 
 .footer-contacts a {
     color: var(--footer-contact-color);
     font-style: normal;
     line-height: 1.71;
-
 }
-
 
 .portfolio-title {
     font-size: 18px;
@@ -181,7 +176,6 @@ footer {
 }
 
 .portfolio-btn {
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
